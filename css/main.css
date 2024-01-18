@@ -7,6 +7,22 @@
     margin: 0;
 }
 
+.dashed {
+    border: dashed;
+}
+
+.hide {
+    display: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
 .flex_center {
     display: flex;
     justify-content: center;
@@ -44,11 +60,32 @@
     height: 100%;
     max-height: var(--intro_max_height);
     background:
-        linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,1)),
+        linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)),
         url("../assets/dummy.jpg") right/cover;
 }
 
 #intro_margin_container {
     height: 100vh;
     max-height: var(--intro_max_height);
+}
+
+#content_container {
+    background-color: white;
+}
+
+#content_box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border: dashed;
+}
+
+.introduction_icon {
+    height: 23px;
+}
+
+#ability_set {
+    border:dashed;
+    display: flex;
+    justify-content: center;
 }
