@@ -12,49 +12,110 @@
 </head>
 
 <body>
-    <div id="intro_container">
-        <div id="intro_msg">
-            <div id="intro_msg_box">
-                <div>저는 존나 개쩌는 개발자 입니다. 시발놈아asefaefsaefsaefafefasefaefasfea</div>
-                <div>아시겠어요??</div>
+    <div id="navigation_container">
+        <div>
+            여긴 뭐하는 데인가
+        </div>
+        <div style="display: flex">
+            <div>
+                소개
+            </div>
+            <div>
+                경험
+            </div>
+            <div>
+                프로젝트
             </div>
         </div>
+    </div>
+    <div id="intro_container">
         <div id="intro_image"></div>
     </div>
-    <div id="main_container">
-        <div id="intro_margin_container"></div>
+    <div id="main_container" style="overflow: hidden;">
+        <div id="intro_margin_container">
+            <div id="intro_msg">
+                <div style="color: white; margin-left: 15%; padding-right: 30px; padding-bottom: 50px;">
+                    <div class="intro_msg_box" style="display: flex; justify-content: space-between; align-items: flex-end">
+                        <div>
+                            <div id="msg1">웹 풀스택 개발자</div>
+                            <div id="msg2">이동하의 포트폴리오</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="intro_msg_box_description" style="font-size: 20px;">
+                        <div>안녕하세요! 저는 열정적인 개발자 이동하입니다.</div>
+                        <div>다양한 프로젝트를 경험하면서 문제를 해결하는 것에 큰 즐거움을 느끼고, 새로운 기술에 도전하는 것을 즐깁니다.</div>
+                        <div>주로 자바 스프링을 기반으로 웹 개발 및 애플리케이션 구축에 관심을 가지고 있으며,</div>
+                        <div>함께 일하며 팀의 목표를 달성하는 데 기여하고, 항상 배우고 성장하기 위해 노력하고 있습니다.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave_box"></div>
+            <div class="wave_box"></div>
+            <div class="wave_box"></div>
+            <div id="gradient_connector"></div>
+        </div>
         <div id="content_container">
             <div id="content_box">
-                <div>
-                    <div>INTRODUCTION</div>
-                    <div>
-                        <div>
-                            <span>이동하</span>
-                            <span>LEE DONG HA</span>
-                        </div>
-                        <div>
-                            <span class="material-symbols-outlined">calendar_month</span>
-                            <span>1994.05.03 대구</span>
-                        </div>
-                        <div>
-                            <span class="material-symbols-outlined">mail</span>
-                            <span>siganshoyou@gmail.com</span>
-                        </div>
-                        <div>
-                            <span class="material-symbols-outlined">phone_iphone</span>
-                            <span>010-2689-6940</span>
-                        </div>
-                        <div>
-                            <img class="introduction_icon" src="./assets/tistory_crop.png" alt="">
-                            <span>https://okane-on-cliff.tistory.com/</span>
-                        </div>
-                        <div>
-                            <img class="introduction_icon" src="./assets/github.png" alt="">
-                            <span>https://github.com/okanekudasai/</span>
-                        </div>
-                        <div>
-                            <img class="introduction_icon" src="./assets/youtube.png" alt="">
-                            <span>https://www.youtube.com/channel/UCZiZJWON3VYMf8YVk_i78rA</span>
+                <div style="border: dashed; position: relative; ">
+                    <div style="margin-left: -50px; position: absolute; top: 10px; font-size: 150px; font-weight: 900; z-index:1; background: linear-gradient(to right top, #86165717, #ffa69e1e); color: transparent; -webkit-background-clip: text;">INTRODUCTION</div>
+                    <div style="z-index: 2; position:relative">
+                        <div class="content_unit_title"><img src="./assets/pen.svg" alt=""><span>소개</span></div>
+                        <div id="introduction_cell_container">
+                            <div>
+                                <div>
+                                    <img src="./assets/face.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>이름</div>
+                                    <div>이동하</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./assets/calendar.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>생년월일</div>
+                                    <div>1994.05.03</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./assets/location.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>주소지</div>
+                                    <div>대구광역시 북구</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./assets/phone.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>연락처</div>
+                                    <div>010-2689-6940</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./assets/mail.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>이메일</div>
+                                    <div>siganshoyou@gmail.com</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./assets/school.svg" alt="">
+                                </div>
+                                <div>
+                                    <div>학력</div>
+                                    <div>서울시립대(세무학과)</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -358,9 +419,14 @@
                 </div>
             </div>
             <div style="text-align: center;">
-                최종 수정 일 : 2024.01.18
+                최종 수정 : 2024.01.18
             </div>
         </div>
+    </div>
+    <div id="link_footer">
+        <a href="https://github.com/okanekudasai/"><div><img class="footer_link_icon" src="./assets/github.png" alt=""></div></a>
+        <a href="https://okane-on-cliff.tistory.com/"><div><img class="footer_link_icon" src="./assets/tistory_crop.png" alt=""></div></a>
+        <a href="https://www.youtube.com/channel/UCZiZJWON3VYMf8YVk_i78rA"><div><img class="footer_link_icon" src="./assets/youtube.png" alt=""></div></a>
     </div>
 </body>
 
