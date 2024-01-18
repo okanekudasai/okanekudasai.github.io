@@ -89,3 +89,32 @@
     display: flex;
     justify-content: center;
 }
+
+#footer {
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+#footer_content_container {
+    display: flex;
+}
+
+#footer_vertical_line {
+    width: 3px;
+    margin: 0 30px;
+    background-color: white;
+}
+
+#footer_link_box {
+    display: flex;
+    mix-blend-mode: difference;
+    text-align: center;
+}
+.footer_link_icon_package {
+    width: 100px;
+}
+
+.footer_link_icon {
+    height: 30px;
+}
