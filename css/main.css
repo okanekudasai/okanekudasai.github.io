@@ -1,5 +1,5 @@
 :root {
-    --intro_max_height: 700px;
+    --intro_max_height: 750px;
 }
 
 @font-face {
@@ -47,11 +47,6 @@
     font-family: 'BMJUA';
     box-sizing: border-box;
     margin: 0;
-}
-
-body > * {
-    color: rgba(0, 0, 0, 0.95)
-    
 }
 
 
@@ -206,11 +201,6 @@ body > * {
     height: 23px;
 }
 
-#ability_set {
-    border: dashed;
-    display: flex;
-    justify-content: center;
-}
 
 #footer {
     background-color: black;
@@ -302,8 +292,78 @@ body > * {
     margin: 10px 0;
 }
 #introduction_cell_container > div > div > div:nth-child(1) {
-    font-size: 30px;
+    font-size: 25px;
 }
 #introduction_cell_container > div > div > div:nth-child(2) {
+    font-size: 20px;
+}
+
+.experience_card, .achievement_card {
+    background: rgba(255, 255, 255, 0.365);
+    padding: 25px 60px;
+    width: 800px;
+    box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 100%;
+}
+.experience_card > div > div:nth-child(1), .achievement_card > div > div > span:nth-child(1) {
+    font-size: 14px;
+    background-color: rgb(129, 180, 224);
+    display: inline-block;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.experience_card > div > div:nth-child(2), .achievement_card > div > div:nth-child(2) {
     font-size: 22px;
+}
+.achievement_card > div > div:nth-child(3) {
+    color: rgba(0, 0, 0, 0.539);
+    margin-top: 5px;
+}
+
+.certifacation_card, .language_card{
+    padding: 25px 35px;
+    min-width: 320px;
+    background-color: rgba(255, 255, 255, 0.352);
+    border-radius: 20px;
+    box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.247);
+    margin: 0 20px;
+    margin-bottom: 40px;
+}
+.certifacation_card > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+.certifacation_card > div:nth-child(1) > div:nth-child(1), .language_card > div:nth-child(1) > div:nth-child(1) {
+    font-size: 24px;
+}
+.certifacation_card > div:nth-child(1) > div:nth-child(2), .language_card > div:nth-child(1) > div:nth-child(2) {
+    background-color: rgb(115, 154, 246);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.certifacation_card > div:nth-child(2), .language_card > div:nth-child(2) {
+    color: rgba(0, 0, 0, 0.628);
+    margin-top: 4px;
+}
+.language_card {
+    padding: 25px 35px;
+    min-width: 320px;
+    background-color: rgba(255, 255, 255, 0.352);
+    border-radius: 20px;
+    box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.247);
+    margin: 35px 20px 0;
+}
+.language_card > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+ {
+
 }
