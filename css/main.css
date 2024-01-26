@@ -455,6 +455,7 @@ body {
 }
 
 .project_card>div:nth-child(1) {
+    font-family: 'GapyeongWave';
     font-size: 28px;
     text-align: center;
 }
@@ -472,7 +473,6 @@ body {
 }
 
 .project_card>div:nth-child(3)>div:nth-child(1) {
-    border: dashed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -489,7 +489,6 @@ body {
 }
 
 .project_card>div:nth-child(3)>div:nth-child(2) {
-    border: dashed;
     min-height: 500px;
     padding: 30px;
 }
@@ -507,7 +506,7 @@ body {
     background-color: rgba(252, 255, 65, 0.587);
 }
 
-.project_short_description+hr {
+.project_card > hr {
     margin: 20px 0;
 }
 
