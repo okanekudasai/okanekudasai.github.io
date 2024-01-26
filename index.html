@@ -419,7 +419,7 @@
                                             <div class="hide">
                                                 mysql
                                             </div>
-                                        </div>
+                                        </div> 
                                         <div class="skill_unit">
                                             <div>
                                                 <img src="./assets/skill/git.png" alt="" />
@@ -460,7 +460,7 @@
                             <div>추노</div>
                             <div>2023년 01월 (5인 프로젝트)</div>
                             <div>
-                                <div style="border: dashed">
+                                <div>
                                     <div class="project_image">
                                         <img src="./assets/dummy.jpg" alt="">
                                     </div>
@@ -474,32 +474,153 @@
                                 </div>
                                 <div>
                                     <div>
-                                        이건 이러이러한 프로젝트 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다. 이건 이러이러한 프로젝트입니다.
-                                        <hr>
-                                        <table>
-                                            <tr>
-                                                <td width="90">주요기능</td>
-                                                <td>이러이러한 기능이있어요 존나 기능이 많아요 개많아요 존나 시발</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Front-End</td>
-                                                <td>이러이러한 기능이있어요 존나 기능이 많아요 개많아요 존나 시발</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Back-End</td>
-                                                <td>이러이러한 기능이있어요 존나 기능이 많아요 개많아요 존나 시발</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Database</td>
-                                                <td>이러이러한 기능이있어요 존나 기능이 많아요 개많아요 존나 시발</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Deploy</td>
-                                                <td>이러이러한 기능이있어요 존나 기능이 많아요 개많아요 존나 시발</td>
-                                            </tr>
-                                        </table>
+                                        <div class="project_short_description">
+                                            <p>
+                                                <span><span class="description_highlight">'추노'</span>는 플레이어 간 실시간 공유되는 모바일 기기의 카메라 영상과, 구글 지도 위의 위치정보를 단서로 '추노꾼'과 '노비'의 역할을 한 플레이어 사이의 <span class="description_highlight">야외추격전을 구현한 게임 플랫폼</span>입니다.</span>
+                                            </p>
+                                            <p>
+                                                <span>Web-RTC를 사용하여 플레이어의 영상정보를 공유하고, geo-location 라이브러리를 사용하여 사용자의 위치정보를 공유하였습니다. 또한 아이템의 사용과 채팅 및 개임상황을 알려주는 시스템 메시지 기능등을 사용하여 추격전의 진행상황을 알 수 있게 하였습니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>Web-RTC를 사용해 봤다는 것에서 큰 의미가 있었던 프로젝트 였지만, 이를 사용하기 위한 라이브러리인 openvidu 도커 이미지를 사용하며 이론적으로만 알고 있었던 도커의 개념과 사용법을 알아볼 수 있었던 점에서 큰 의미가 있었던 프로젝트였습니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>또한 Web-RTC가 제공하는 클라이언트간의 실시간 통신을 프론트에서 직접 구현하여 영상, 음성 등의 미디어 정보와 텍스트 정보의 송수신의 원리를 파악해 볼 수 있었던 의미가 있었습니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>프로젝트의 로그인 로직의 프론트 단과 백 단을 모두 담당하여 Oauth2의 개념과 활용법을 익히는데 큰 도움이 되었습니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>Vue 프레임워크를 사용하며 앱 내에서 openvidue 객체와 로그인 상태관리 및 전역적 변수 관리를 위해 vuex를 도입하였습니다. 이를 통해 복잡한 컴포넌트 구조에서 발생하는 상태 관리의 어려움을 해결하고 유지관리의 효율성을 향상 시킬 수 있었습니다.</span>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: center;">
+                                <table class="description_table">
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    참여역할
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    주요기능
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    Front-End
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    Back-End
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    DataBase
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description_table_first_col">
+                                            <div>
+                                                <div class="material-symbols-outlined">
+                                                    arrow_right
+                                                </div>
+                                                <div>
+                                                    Deploy
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <li style="margin-bottom: 5px;">
+                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                            </li>
+                                            <li>
+                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                            </li>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
 
