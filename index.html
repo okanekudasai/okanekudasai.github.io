@@ -499,7 +499,7 @@
                             </div>
                             
                             <hr>
-                            
+
                             <div style="display: flex; justify-content: center;">
                                 <table class="description_table">
                                     <tr>
@@ -522,6 +522,68 @@
                                             </li>
                                         </td>
                                     </tr>
+                                </table>
+                            </div>
+
+                            <div class="project_link_container">
+                                <div class="project_link_card project_github_link">
+                                    <img class="footer_link_icon" src="./assets/git-hub-reverse.png" alt="">
+                                    <span>소스코드</span> 
+                                </div>
+                                <div class="project_link_card project_youtube_link">
+                                    <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="">
+                                    <span>UCC</span> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project_card">
+                            <div>챌린멍스</div>
+                            <div>2023년 03월 (5인 프로젝트)</div>
+                            <div>
+                                <div>
+                                    <div class="project_image">
+                                        <img src="./assets/dummy.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <button>&lt;</button>
+                                        <span class="img_page present_img_page">1</span>
+                                        <span>/</span>
+                                        <span class="img_page total_img_page">9</span>
+                                        <button>&gt;</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="project_short_description">
+                                            <p>
+                                                <span><span class="description_highlight">'챌린멍스'</span>는 반려견들을 위한 기부 문화를 게임을 통해 자연스럽게 즐길 수 있도록 하며 블록체인 기술을 활용해 가상화폐인 '클레이튼'을 주고받을 수 있도록 만든 <span class="description_highlight">기부 플랫폼</span>입니다.</span>
+                                            </p>
+                                            <p>
+                                                <span>'챌린멍스'는 일상에서 실천할 수 있는 반려견을 위한 생활을 인증하는 것, 지역민들과 지도위에 얼마나 많은 면적을 반려견과 산책했는지 경쟁하는 게임을 통해 참여자들이 자연스럽게 기부를 할 수 있도록 유도합니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>Spring Boot에서 데이터 베이스를 조작하는데 이때 까지는 myBatis를 사용해 왔지만 처음으로 jpa를 적용해보고 원리를 파악해 볼 수 있었던 의미가 있는 프로젝트 입니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>ERD 설계 과정 중의 데이터 베이스 테이블 간의 의존관계를 설정하는 것과 정규화 과정이 프로젝트의 유지관리에 정말 중요하다는 것을 느낄 수 있었습니다.</span>
+                                            </p>
+                                            <p>
+                                                <span>또한 지역민들이 산책을 통해 지도 위에 자신이 지나온 구역을 실시간으로 표시하기 위해 Web-Socket사용하여 서버를 중심으로 한 유저 간 통신을 구현해 보았습니다.</span> 
+                                            </p>
+                                            <p>
+                                                <span>특히 코틀린을 사용하여 안드로이드 화면을 개발 해 볼 수 있었다는 점에서 새로운 언어와 새로운 개발 플랫폼을 경험해 볼 수 있었다는 점에서 큰 의미가 있었습니다.</span> 
+                                                <span>레트로핏과 리사이클러 뷰를 사용하여 데이터를 취합하고 스타일을 입혀 원하는 모양으로 표시해보는 것을 경험해 볼 수 있었습니다.</span> 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <hr>
+
+                            <div style="display: flex; justify-content: center;">
+                                <table class="description_table">
                                     <tr>
                                         <td class="description_table_first_col">
                                             <div>
@@ -529,102 +591,36 @@
                                                     arrow_right
                                                 </div>
                                                 <div>
-                                                    주요기능
+                                                    참여역할
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
                                             <li style="margin-bottom: 5px;">
-                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                                주로 백 단에서 Rest-API 서버를 제작하였고 데이터베이스에서 필요한 정보를 효율적으로 추출하여 가공하는 작업을 주로 수행했습니다.
                                             </li>
-                                            <li>
-                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
-                                            </li>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="description_table_first_col">
-                                            <div>
-                                                <div class="material-symbols-outlined">
-                                                    arrow_right
-                                                </div>
-                                                <div>
-                                                    Front-End
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
                                             <li style="margin-bottom: 5px;">
-                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
+                                                또한 WebSocket라이브러리를 사용하여 실시간으로 사용자의 위치정보를 받아 지도에서 사용자가 위치한 구역을 표시하고 저장하여 다른 사용자들에게 전달하는 컴포넌트를 제작하였습니다.
                                             </li>
                                             <li>
-                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
-                                            </li>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="description_table_first_col">
-                                            <div>
-                                                <div class="material-symbols-outlined">
-                                                    arrow_right
-                                                </div>
-                                                <div>
-                                                    Back-End
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <li style="margin-bottom: 5px;">
-                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
-                                            </li>
-                                            <li>
-                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
-                                            </li>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="description_table_first_col">
-                                            <div>
-                                                <div class="material-symbols-outlined">
-                                                    arrow_right
-                                                </div>
-                                                <div>
-                                                    DataBase
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <li style="margin-bottom: 5px;">
-                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
-                                            </li>
-                                            <li>
-                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
-                                            </li>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="description_table_first_col">
-                                            <div>
-                                                <div class="material-symbols-outlined">
-                                                    arrow_right
-                                                </div>
-                                                <div>
-                                                    Deploy
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <li style="margin-bottom: 5px;">
-                                                주로 프론트 단의 화면 개발 특히 게임 대기방, 게임 화면, 게임 결과 창등 메인 서비스와 관계된 컴포넌트를 담당하였습니다.
-                                            </li>
-                                            <li>
-                                                백 단에서는 Login을 위한 Rest API를 제작하였습니다.
+                                                코틀린을 사용하여 앱의 메인 화면과, 반려견에게 필요한 시설을 표시하는 지도화면을 제작해 보았습니다.
                                             </li>
                                         </td>
                                     </tr>
                                 </table>
                             </div>
+                            <div class="project_link_container">
+                                <div class="project_link_card project_github_link">
+                                    <img class="footer_link_icon" src="./assets/git-hub-reverse.png" alt="">
+                                    <span>소스코드</span> 
+                                </div>
+                                <div class="project_link_card project_youtube_link">
+                                    <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="">
+                                    <span>UCC</span> 
+                                </div>
+                            </div>
                         </div>
+
 
 
                     </div>

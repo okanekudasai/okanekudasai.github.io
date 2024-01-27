@@ -456,7 +456,7 @@ body {
 
 .project_card>div:nth-child(1) {
     font-family: 'GapyeongWave';
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -489,7 +489,6 @@ body {
 }
 
 .project_card>div:nth-child(3)>div:nth-child(2) {
-    min-height: 500px;
     padding: 30px;
 }
 
@@ -506,13 +505,11 @@ body {
     background-color: rgba(252, 255, 65, 0.587);
 }
 
-.project_card > hr {
-    margin: 20px 0;
-}
-
 .description_table {
     border-collapse: separate;
     border-spacing: 0 25px;
+    font-size: 17px;
+    max-width: 85%;
 }
 
 .description_table_first_col>div {
@@ -532,4 +529,33 @@ td>li::before {
     content: "\2022";
     color: rgb(0, 0, 0);
     margin-right: 2px;
+}
+
+.project_link_container {
+    margin-top: 10px;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.project_link_card {
+    margin: 0 10px;
+}
+
+.project_github_link {
+    display: flex; justify-content: center; align-items: center;
+    background: rgb(56, 55, 55); color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+.project_github_link > img {
+    margin-right: 10px;
+}
+
+.project_youtube_link {
+    display: flex; justify-content: center; align-items: center;
+    background: rgb(240, 62, 62); color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+.project_youtube_link > img {
+    margin-right: 10px;
 }
