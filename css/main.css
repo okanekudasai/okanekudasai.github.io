@@ -538,24 +538,26 @@ td>li::before {
 
 .project_link_card {
     margin: 0 10px;
+    display: flex; justify-content: center; align-items: center;
+    padding: 8px 20px;
+    border-radius: 15px;
 }
 
 .project_github_link {
-    display: flex; justify-content: center; align-items: center;
-    background: rgb(56, 55, 55); color: white;
-    padding: 8px 20px;
-    border-radius: 15px;
-}
-.project_github_link > img {
-    margin-right: 10px;
+    background: rgb(84, 84, 84);
+    color: white;
 }
 
 .project_youtube_link {
-    display: flex; justify-content: center; align-items: center;
-    background: rgb(240, 62, 62); color: white;
-    padding: 8px 20px;
-    border-radius: 15px;
+    background: rgb(239, 91, 91);
+    color: white;  
 }
-.project_youtube_link > img {
+
+.project_page_link {
+    background:rgb(137, 172, 255);
+    color: white;
+}
+
+.project_link_card > img {
     margin-right: 10px;
 }
