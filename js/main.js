@@ -1,8 +1,5 @@
 init = () => {
 
-    gsap.from(".intro_msg_box", { x: 100, duration: 1 });
-    gsap.from(".intro_msg_box_description", { x: -100, duration: 1 });
-
     let icons = document.querySelector("#link_footer").querySelectorAll(".footer_link_icon");
     for (let i = 0; i < icons.length; i++) {
         icons[i].style.animation = "bounce 4s ease " + i / 3 + "s 2";
@@ -44,4 +41,12 @@ toggle_picture = (images, present_page, target_page) => {
     images[target_page-1].classList.remove("hide");
 }
 
+
 init();
+// document.addEventListener("DOMContentLoaded", () => {
+//     init();
+// });
+
+// window.onload = () => {
+//     init();
+// }
