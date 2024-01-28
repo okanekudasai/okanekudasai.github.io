@@ -97,7 +97,14 @@
     .project_image + div > button:hover {
         cursor: pointer;
     }
+    .hover_small:hover {
+        transform: scale(1.02);
+    }
 }
+.hover_small {
+    transition: all 0.2s;
+}
+
 
 .hover_big {
     transition: all 0.1s;
@@ -560,8 +567,9 @@ a {
 
 .project_card>div:nth-child(3) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
+
 
 .project_card>div:nth-child(3)>div:nth-child(1) {
     display: flex;
@@ -575,8 +583,8 @@ a {
     display: inline-block;
 }
 .project_image > .youtube_area{
-    position: relative;
-    width: 100%;
+    min-width: 100%;
+    display: inline-block;
     aspect-ratio: 16 / 9;
 }
 .youtube_area > iframe {
@@ -668,3 +676,9 @@ td>li::before {
 .project_link_card>img {
     margin-right: 10px;
 }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-60px);} 
+    60% {transform: translateY(-30px);} 
+ }

@@ -6,6 +6,7 @@
     <link rel="icon" href="./assets/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오케인의 포트폴리오</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js" defer></script>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet"
@@ -116,13 +117,13 @@
                                 style="right: -50px; position: absolute; top: 10px; font-size: 150px; font-weight: 900; z-index:1; background: linear-gradient(to right top, #86165717, #ffa69e1e); color: transparent; -webkit-background-clip: text;">
                                 EXPERIENCE</div>
                             <div style="z-index: 2; position: relative;">
-                                <div class="experience_card">
+                                <div class="hover_small experience_card">
                                     <div>
                                         <div>2022.07.06 ~ 2023.06.30</div>
                                         <div>삼성 청년 SW 아카데미(SSAFY) 8기 교육생 수료</div>
                                     </div>
                                 </div>
-                                <div class="achievement_card">
+                                <div class="hover_small achievement_card">
                                     <div>
                                         <div>
                                             <span>2022.11.25</span>
@@ -135,7 +136,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="achievement_card">
+                                <div class="hover_small achievement_card">
                                     <div>
                                         <div>
                                             <span>2022.11.25</span>
@@ -148,7 +149,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="achievement_card">
+                                <div class="hover_small achievement_card">
                                     <div>
                                         <div>
                                             <span>2023.02.17</span>
@@ -161,7 +162,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="achievement_card">
+                                <div class="hover_small achievement_card">
                                     <div>
                                         <div>
                                             <span>2023.05.26</span>
@@ -185,7 +186,7 @@
                                 CERTIFICATION</div>
                             <div
                                 style="display: flex; justify-content: center; position: relative; z-index: 2; margin-top: 40px; width: 100%; flex-wrap: wrap;">
-                                <div class="certifacation_card">
+                                <div class="hover_small certifacation_card">
                                     <div>
                                         <div>정보처리기사</div>
                                         <div>2021.11.26</div>
@@ -195,7 +196,7 @@
                                         한국산업인력공단
                                     </div>
                                 </div>
-                                <div class="certifacation_card">
+                                <div class="hover_small certifacation_card">
                                     <div>
                                         <div>SQLD</div>
                                         <div>2023.10.06</div>
@@ -205,7 +206,7 @@
                                         한국데이터산업진흥회
                                     </div>
                                 </div>
-                                <div class="certifacation_card">
+                                <div class="hover_small certifacation_card">
                                     <div>
                                         <div>HSAT(Level.3)</div>
                                         <div>2023.08.11</div>
@@ -225,7 +226,7 @@
                                 LANGUAGE</div>
                             <div
                                 style="display: flex; justify-content: center; flex-wrap: wrap; position: relative; z-index:2;">
-                                <div class="language_card">
+                                <div class="hover_small language_card">
                                     <div>
                                         <div>OPIC(IM3)</div>
                                         <div>2023.11.23</div>
@@ -235,7 +236,7 @@
                                         <span>ACTFL</span>
                                     </div>
                                 </div>
-                                <div class="language_card">
+                                <div class="hover_small language_card">
                                     <div>
                                         <div>JLPT(N1)</div>
                                         <div>2021.12.05</div>
@@ -272,7 +273,7 @@
                                             <div>
                                                 <img src="./assets/skill/css.svg" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 CSS
                                             </div>
                                         </div>
@@ -280,7 +281,7 @@
                                             <div>
                                                 <img src="./assets/skill/js.svg" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 JavaScript
                                             </div>
                                         </div>
@@ -288,7 +289,7 @@
                                             <div>
                                                 <img src="./assets/skill/vue.svg" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 VUE
                                             </div>
                                         </div>
@@ -296,7 +297,7 @@
                                             <div>
                                                 <img src="./assets/skill/android.svg" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 android
                                             </div>
                                         </div>
@@ -304,7 +305,7 @@
                                             <div>
                                                 <img src="./assets/skill/electron.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 electron
                                             </div>
                                         </div>
@@ -312,7 +313,7 @@
                                             <div>
                                                 <img src="./assets/skill/unity.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 unity
                                             </div>
                                         </div>
@@ -326,7 +327,7 @@
                                             <div>
                                                 <img src="./assets/skill/java.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 Java
                                             </div>
                                         </div>
@@ -334,7 +335,7 @@
                                             <div>
                                                 <img src="./assets/skill/spring.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 spring boot
                                             </div>
                                         </div>
@@ -342,7 +343,7 @@
                                             <div>
                                                 <img src="./assets/skill/python.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 python
                                             </div>
                                         </div>
@@ -350,7 +351,7 @@
                                             <div>
                                                 <img src="./assets/skill/flask.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 flask
                                             </div>
                                         </div>
@@ -364,7 +365,7 @@
                                             <div>
                                                 <img src="./assets/skill/aws.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 aws
                                             </div>
                                         </div>
@@ -372,7 +373,7 @@
                                             <div>
                                                 <img src="./assets/skill/oci.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 oracle cloud
                                             </div>
                                         </div>
@@ -380,7 +381,7 @@
                                             <div>
                                                 <img src="./assets/skill/docker.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 docker
                                             </div>
                                         </div>
@@ -388,7 +389,7 @@
                                             <div>
                                                 <img src="./assets/skill/nginx.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 nginx
                                             </div>
                                         </div>
@@ -396,7 +397,7 @@
                                             <div>
                                                 <img src="./assets/skill/jenkins.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 jenkins
                                             </div>
                                         </div>
@@ -404,7 +405,7 @@
                                             <div>
                                                 <img src="./assets/skill/github-action.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 github action
                                             </div>
                                         </div>
@@ -418,7 +419,7 @@
                                             <div>
                                                 <img src="./assets/skill/mysql.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 mysql
                                             </div>
                                         </div>
@@ -426,7 +427,7 @@
                                             <div>
                                                 <img src="./assets/skill/git.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 git
                                             </div>
                                         </div>
@@ -434,7 +435,7 @@
                                             <div>
                                                 <img src="./assets/skill/github.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 github
                                             </div>
                                         </div>
@@ -442,7 +443,7 @@
                                             <div>
                                                 <img src="./assets/skill/jira.png" alt="" />
                                             </div>
-                                            <div class="hide">
+                                            <div>
                                                 jira
                                             </div>
                                         </div>
@@ -472,11 +473,11 @@
                                         <img class="hide" src="./assets/project/auto-attention/logout.png" alt="" />
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -539,7 +540,7 @@
                                 </div>
                                 <div class="project_link_card project_youtube_link">
                                     <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="">
-                                    <span>UCC</span>
+                                    <span>시연영상</span>
                                 </div>
                             </div>
                         </div>
@@ -553,11 +554,11 @@
                                         <img src="./assets/project/happyhouse/main.png" alt="">
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -616,7 +617,7 @@
                                 </div>
                                 <div class="project_link_card project_youtube_link" onclick="window.open('https://www.youtube.com/watch?v=6YGsVOrG3tg',  '_blank');">
                                     <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="">
-                                    <span>UCC</span>
+                                    <span>시연영상</span>
                                 </div>
                             </div>
                         </div>
@@ -632,14 +633,15 @@
                                         <img class="hide" src="./assets/project/solve-commit/picture1.png" alt="">
                                         <img class="hide" src="./assets/project/solve-commit/picture2.png" alt="">
                                         <img class="hide" src="./assets/project/solve-commit/picture3.png" alt="">
+                                        <img class="hide" src="./assets/project/solve-commit/picture4.png" alt="">
                                         
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -697,9 +699,9 @@
                                     <img class="footer_link_icon" src="./assets/git-hub-reverse.png" alt="">
                                     <span>소스코드</span>
                                 </div>
-                                <div class="project_link_card project_youtube_link">
-                                    <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="" onclick="window.open('https://youtu.be/HZpwY9qWm7Q',  '_blank');">
-                                    <span>UCC</span>
+                                <div class="project_link_card project_youtube_link" onclick="window.open('https://youtu.be/HZpwY9qWm7Q',  '_blank');">
+                                    <img class="footer_link_icon" src="./assets/youtube-reverse.png" alt="">
+                                    <span>시연영상</span>
                                 </div>
                                 <div class="project_link_card project_page_link" onclick="window.open('https://chromewebstore.google.com/detail/%EC%86%94%EB%B8%8C%EC%BB%A4%EB%B0%8B/aknkiaaoecgdkjkplhfhaeafhamjgogf?hl=ko',  '_blank');">
                                     <img class="footer_link_icon" src="./assets/link-reverse.png" alt="">
@@ -720,11 +722,11 @@
                                         <div class="hide youtube_area"><iframe src="https://www.youtube.com/embed/FFvWbRjSkic?si=eHNVNtKZcZeXaqdD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -815,11 +817,11 @@
                                         <img class="hide" src="./assets/project/challenmungs/picture3.png" alt="">
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -911,11 +913,11 @@
                                         <img class="hide" src="./assets/project/fyum/picture2.png" alt="">
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -997,11 +999,11 @@
                                         <img class="hide" src="./assets/project/sinwooemc/picture1.png" alt="">
                                     </div>
                                     <div>
-                                        <button>&lt;</button>
+                                        <button class="hide pre_img_btn">&lt;</button>
                                         <span class="img_page present_img_page">1</span>
                                         <span>/</span>
                                         <span class="img_page total_img_page"></span>
-                                        <button>&gt;</button>
+                                        <button class="next_img_btn">&gt;</button>
                                     </div>
                                 </div>
                                 <div>
@@ -1115,7 +1117,7 @@
     <div id="link_footer">
         <div class="link_footer_unit">
             <a href="https://github.com/okanekudasai/" target="_blank">
-                <img class="hover_big" class="footer_link_icon" src="./assets/github.png" alt="">
+                <img class="hover_big footer_link_icon" src="./assets/github.png" alt="">
             </a>
             <div class="link_footer_description">
                 <div>https://github.com/okanekudasai/</div>
@@ -1125,7 +1127,7 @@
         </div>
         <div class="link_footer_unit">
             <a href="https://okane-on-cliff.tistory.com/" target="_blank">
-                <img class="hover_big" class="footer_link_icon" src="./assets/tistory_crop.png" alt="">
+                <img class="hover_big footer_link_icon" src="./assets/tistory_crop.png" alt="">
             </a>
             <div class="link_footer_description">
                 <div>https://okane-on-cliff.tistory.com/</div>
@@ -1135,7 +1137,7 @@
         </div>
         <div class="link_footer_unit">
             <a href="https://www.youtube.com/channel/UCZiZJWON3VYMf8YVk_i78rA/" target="_blank">
-                <img class="hover_big" class="footer_link_icon" src="./assets/youtube.png" alt="">
+                <img class="hover_big footer_link_icon" src="./assets/youtube.png" alt="">
             </a>
             <div class="link_footer_description">
                 <div>https://www.youtube.com/channel/UCZiZJWON3VYMf8YVk_i78rA/</div>
