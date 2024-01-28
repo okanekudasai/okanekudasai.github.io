@@ -541,20 +541,21 @@ td>li::before {
     display: flex; justify-content: center; align-items: center;
     padding: 8px 20px;
     border-radius: 15px;
+    opacity: 0.6;
 }
 
 .project_github_link {
-    background: rgb(84, 84, 84);
+    background: rgb(0, 0, 0);
     color: white;
 }
 
 .project_youtube_link {
-    background: rgb(239, 91, 91);
+    background: rgb(255, 0, 0);
     color: white;  
 }
 
 .project_page_link {
-    background:rgb(137, 172, 255);
+    background:rgb(0, 76, 255);
     color: white;
 }
 
