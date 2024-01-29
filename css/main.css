@@ -204,7 +204,7 @@ a {
     max-height: var(--intro_max_height);
     background:
         linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
-        url("../assets/IMG_0551.jpg") center/cover;
+        url("../assets/IMG_0552.jpg") center/cover;
 }
 
 #intro_margin_container {
